@@ -1,0 +1,296 @@
+header{
+    background-color: rgb(153, 194, 162);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+body{
+    background-color: rgb(122, 145, 141);
+}
+p{
+    font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    align-items: center;
+
+}
+nav {
+    display: flex;
+    align-items: center;
+}
+.ulNav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+.ulNav li {
+    margin: 0 10px; 
+}
+.ulNav a {
+    display: inline-block; 
+    padding: 10px 20px; 
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+.ulNav a:hover {
+    background-color: #0056b3;
+}
+h1{
+    margin-left: 40px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    text-decoration: none;
+    font-size: 3rem; 
+    text-align: center;
+    margin: 20px 0;
+}
+h1 a {
+    color: #333; 
+    text-decoration: none; 
+    font-family: "Kanit", sans-serif;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+h1 a:hover {
+    color: rgb(219, 254, 184);
+    transform: scale(1.05); 
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+}
+
+.h2Header {
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 20px 0;
+    color: #333;
+    transition: color 0.3s ease, transform 0.3s ease, text-shadow 0.3s ease;
+}
+.h2Header:hover {
+    color: rgb(219, 254, 184);
+    transform: scale(1.05);
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+footer{
+    background-color: rgb(153, 194, 162);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 24px;
+}
+.remeraFoo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+}
+.bolsaFoo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+}
+.camionetaFoo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+}
+.remImg{
+    width: 9%;
+    margin: 18px 8px;
+    border-radius: 26%; 
+}
+.bolImg{
+    border-radius: 26%;
+    width: 19%;
+    margin: 18px 8px;
+
+}
+.camImg{
+    border-radius: 26%;
+    margin: 18px 8px;
+    width: 9%;
+}
+h4 {
+    margin-left: 4px;
+    margin-top: 43px;
+    font-size: 18px;
+    color: #333;
+    transition: color 0.3s ease, transform 0.3s ease;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-optical-sizing: auto;
+}
+h4:hover {
+    color: rgb(219, 254, 184);
+    transform: scale(1.05);
+}
+.logo{
+    width: 14%;
+    border-radius: 60%;
+}
+.sect1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.div1, .div2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    width: 1240px ;
+    height: 400px;
+}
+.div1 div, .div2 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div1 div img, .div2 div img {
+    max-width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 26%;
+    padding: 5px;
+    width: 225px;
+    height: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.div1 div img:hover, .div2 div img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.div1 div p, .div2 div p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+.div1 div p:hover, .div2 div p:hover {
+    color: rgb(219, 254, 184);
+    transform: translateY(-3px);
+}
+.banner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 112px;
+    background-color: rgb(122, 145, 141);
+    justify-content: space-around;
+}
+.bannerC {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px;
+    background-color: rgb(122, 145, 141);
+    justify-content: space-around;
+    height: 625px;
+    width: auto;
+}
+.mapContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 70px;
+}
+.tituloMapa {
+    font-size: 34px;
+    margin-bottom: 15px;
+    margin-top: 0; 
+    color: rgb(219, 254, 184);
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+.banner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 78px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease, transform 0.3s ease; 
+}
+.imgBan {
+    width: 70%;
+    max-width: 650px; 
+    height: 500px;
+    border: 0;
+    border-radius: 10%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.imgBan:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+.divBan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 800px;
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+.divBan:hover {
+    background: #f0f0f0;
+    transform: translateY(-5px);
+}
+.tituloBan {
+    font-size: 39px;
+    margin-bottom: 15px;
+    text-align: center;
+    
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    transition: color 0.3s ease;
+}
+.tituloBan:hover {
+    color: #007bff;
+}
+.txtBan {
+    font-size: 18px;
+    text-align: center;
+    color: #333;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+.ulContacto {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+}
+.ulContacto li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.ulContacto li img.logo {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+.ulContacto li a {
+    color: #007BFF;
+    text-decoration: none;
+    margin-left: 5px; 
+}
