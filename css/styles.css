@@ -119,7 +119,7 @@ footer{
     margin: 18px 8px;
     width: 9%;
 }
-p {
+.h4 {
     margin-left: 4px;
     margin-top: 43px;
     font-size: 18px;
@@ -128,7 +128,7 @@ p {
     font-family: "Edu AU VIC WA NT Hand", cursive;
     font-optical-sizing: auto;
 }
-p:hover {
+.h4:hover {
     color: rgb(219, 254, 184);
     transform: scale(1.05);
 }
