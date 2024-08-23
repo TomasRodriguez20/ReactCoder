@@ -26,20 +26,24 @@ nav {
     padding: 0;
     margin: 0;
 }
+
 .ulNav li {
-    margin: 0 10px; 
+    margin: 0 10px;
 }
+
 .ulNav a {
-    display: inline-block; 
-    padding: 10px 20px; 
+    display: inline-block;
+    padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
     transition: background-color 0.3s;
 }
+
 .ulNav a:hover {
     background-color: #0056b3;
 }
+
 h1{
     margin-left: 40px;
     font-family: "Kanit", sans-serif;
