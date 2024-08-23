@@ -298,3 +298,42 @@ h4:hover {
     text-decoration: none;
     margin-left: 5px; 
 }
+.carousel-item .div2 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: scale(1.3);
+}
+.carousel-item .div2 div img {
+    max-width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 26%;
+    padding: 5px;
+    width: 292.5px;
+    height: 390px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.carousel-item .div2 div p {
+    margin-top: 13px;
+    font-size: 23.4px;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+main {
+    display: flex;
+    height: 680px;
+    justify-content: center;
+}
+#carouselExampleInterval {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.carousel-inner {
+    display: flex;
+    align-items: center;
+    width: 100%; 
+}
